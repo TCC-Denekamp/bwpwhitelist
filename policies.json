@@ -1,0 +1,25 @@
+{
+  "policies": {
+    "DisablePrivateBrowsing": true,
+    "History": {
+      "ClearOnClose": true
+    },
+    "Cookies": {
+      "ExpireAtSessionEnd": true
+    },
+    "WebsiteFilter": {
+      "Block": ["<all_urls>"],
+      "Exceptions": [
+        *https://*.twentscarmelcollege.nl/*"
+        *https://*stichtingcarmelcollege.nl/*"
+        *https://*carmel.nl/*"
+        *https://*somtoday.nl/*"
+        *https://*learnbeat.nl/*"
+        *https://*noordhoff.nl/*"
+        *https://*lessonup.com/*"
+        *https://*microsoft.com/*"
+        *https://*microsoftonline.com/*"
+      ]
+    }
+  }
+}
